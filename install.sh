@@ -7,3 +7,4 @@ sudo systemctl enable cups.service
 sudo systemctl enable bluetooth.service
 sudo cp -r xfce/.config /etc/skel
 sudo cp -r xfce/.local /etc/skel
+sudo cp -r xfce/.icons /etc/skel
