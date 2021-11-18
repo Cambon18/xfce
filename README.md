@@ -1,2 +1,2 @@
 # Xfce
-Repositorio del escritorio Xfce de CambonOS
+Escritorio Xfce de CambonOS
