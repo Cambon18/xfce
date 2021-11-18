@@ -9,6 +9,8 @@
   </property>
   <property name="Gtk" type="empty">
     <property name="DecorationLayout" type="string" value="menu:minimize,maximize,close"/>
+    <property name="FontName" type="string" value="Cantarell 14"/>
+    <property name="MonospaceFontName" type="string" value="Monospace 14"/>
     <property name="MenuImages" type="bool" value="true"/>
     <property name="CanChangeAccels" type="bool" value="false"/>
     <property name="ButtonImages" type="bool" value="true"/>
