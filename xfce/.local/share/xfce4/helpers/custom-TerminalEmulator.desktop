@@ -7,4 +7,4 @@ X-XFCE-Category=TerminalEmulator
 X-XFCE-CommandsWithParameter=/bin/alacritty "%s"
 Icon=alacritty
 Name=alacritty
-X-XFCE-Commands=/bin/alacritty
+X-XFCE-Commands=/bin/xfce4-terminal
