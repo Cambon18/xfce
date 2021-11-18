@@ -1,2 +1,2 @@
-TerminalEmulator=custom-TerminalEmulator
-WebBrowser=custom-WebBrowser
+TerminalEmulator=xfce4-terminal
+WebBrowser=chromium
