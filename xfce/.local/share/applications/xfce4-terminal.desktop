@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Terminal de Xfce
+GenericName=Emulador de terminal
+NoDisplay=true
+Comment=Emulador de terminal
+Icon=org.xfce.terminal
+Exec=xfce4-terminal
+Actions=preferences;
+Categories=GTK;System;TerminalEmulator;
+StartupNotify=true
+
+[Desktop Action preferences]
+Name=Preferencias de la terminal
+Exec=xfce4-terminal --preferences
