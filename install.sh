@@ -5,6 +5,8 @@ sudo systemctl enable cups.service
 sudo systemctl enable bluetooth.service
 sudo sed -i '/#greeter-session/c greeter-session=lightdm-slick-greeter' /etc/lightdm/lightdm.conf
 sudo sed -i '/^greeter-session/c greeter-session=lightdm-slick-greeter' /etc/lightdm/lightdm.conf
+sudo sed -i '/#greeter-show-manual-login/c greeter-show-manual-login=true' /etc/lightdm/lightdm.conf
+sudo sed -i '/^greeter-show-manual-login/c greeter-show-manual-login=true' /etc/lightdm/lightdm.conf
 sudo systemctl enable lightdm.service
 sudo cp -r xfce/.config /etc/skel
 sudo cp -r xfce/.local /etc/skel
