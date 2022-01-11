@@ -7,6 +7,6 @@ sudo sed -i '/#greeter-session/c greeter-session=lightdm-slick-greeter' /etc/lig
 sudo sed -i '/^greeter-session/c greeter-session=lightdm-slick-greeter' /etc/lightdm/lightdm.conf
 sudo sed -i '/#greeter-show-manual-login/c greeter-show-manual-login=true' /etc/lightdm/lightdm.conf
 sudo sed -i '/^greeter-show-manual-login/c greeter-show-manual-login=true' /etc/lightdm/lightdm.conf
+sudo cp -rv lightdm /etc
 sudo systemctl enable lightdm.service
 sudo cp -rv skel /etc
-sudo cp -rv lightdm /etc
