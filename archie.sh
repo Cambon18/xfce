@@ -1,6 +1,6 @@
 #!/bin/bash
 trizen --noconfirm -Sy lightdm lightdm-slick-greeter light-locker numlockx materia-gtk-theme xfce4-whiskermenu-plugin xfce4-session xfce4-panel xfce4-power-manager xfce4-settings  xfce4-screenshooter xfconf xfdesktop xfwm4 network-manager-applet xfce4-pulseaudio-plugin pulseaudio pulseaudio-jack pulseaudio-bluetooth pavucontrol menulibre mugshot arc-gtk-theme papirus-icon-theme
-trizen --noconfirm -Sy thunar xdg-user-dirs gvfs gvfs-smb thunar-volman thunar-archive-plugin file-roller gnome-disk-utility mousepad vlc atril ristretto galculator xfce4-terminal libreoffice-fresh-es hunspell-es_es chromium cups system-config-printer blueberry
+trizen --noconfirm -Sy thunar xdg-user-dirs gvfs gvfs-smb thunar-volman thunar-archive-plugin file-roller gnome-disk-utility mousepad vlc atril ristretto galculator xfce4-terminal libreoffice-fresh-es hunspell-es_es chromium cups system-config-printer blueberry pamac-aur
 sudo systemctl enable cups.service
 sudo systemctl enable bluetooth.service
 sudo sed -i '/#greeter-session/c greeter-session=lightdm-slick-greeter' /etc/lightdm/lightdm.conf
