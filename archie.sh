@@ -3,10 +3,6 @@ trizen --noconfirm -Sy lightdm lightdm-gtk-greeter light-locker numlockx materia
 trizen --noconfirm -Sy thunar xdg-user-dirs gvfs gvfs-smb thunar-volman thunar-archive-plugin file-roller gnome-disk-utility mousepad vlc atril ristretto galculator xfce4-terminal libreoffice-fresh-es hunspell-es_es chromium cups system-config-printer blueberry && \
 sudo systemctl enable cups.service && \
 sudo systemctl enable bluetooth.service && \
-sudo sed -i '/#greeter-session/c greeter-session=lightdm-slick-greeter' /etc/lightdm/lightdm.conf && \
-sudo sed -i '/^greeter-session/c greeter-session=lightdm-slick-greeter' /etc/lightdm/lightdm.conf && \
-sudo sed -i '/#greeter-show-manual-login/c greeter-show-manual-login=true' /etc/lightdm/lightdm.conf && \
-sudo sed -i '/^greeter-show-manual-login/c greeter-show-manual-login=true' /etc/lightdm/lightdm.conf && \
 sudo cp -rv lightdm /etc && \
 sudo systemctl enable lightdm.service && \
 sudo cp -rv skel /etc
