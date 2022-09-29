@@ -2,14 +2,14 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="Arc-Dark"/>
-    <property name="IconThemeName" type="string" value="Papirus-Dark"/>
+    <property name="ThemeName" type="string" value="Matcha-dark-azul"/>
+    <property name="IconThemeName" type="string" value="ePapirus-Dark"/>
     <property name="EnableInputFeedbackSounds" type="bool" value="false"/>
     <property name="EnableEventSounds" type="bool" value="false"/>
   </property>
   <property name="Gtk" type="empty">
     <property name="DecorationLayout" type="string" value="menu:minimize,maximize,close"/>
-    <property name="FontName" type="string" value="Cantarell 14"/>
+    <property name="FontName" type="string" value="Cantarell 12"/>
     <property name="MonospaceFontName" type="string" value="Monospace 14"/>
     <property name="MenuImages" type="bool" value="true"/>
     <property name="CanChangeAccels" type="bool" value="false"/>
