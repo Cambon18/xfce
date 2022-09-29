@@ -1,2 +1,2 @@
 # Xfce
-Escritorio Xfce de CambonOS
+Escritorio Xfce para CambonOS
