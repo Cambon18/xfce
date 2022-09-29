@@ -2,9 +2,9 @@ xorg-server
 lightdm
 lightdm-gtk-greeter
 light-locker
-materia-gtk-theme
 xfce4-whiskermenu-plugin
-xfce4-session xfce4-panel
+xfce4-session
+xfce4-panel
 xfce4-power-manager
 xfce4-settings
 xfce4-screenshooter
@@ -18,7 +18,7 @@ pulseaudio-jack
 pulseaudio-bluetooth
 pavucontrol
 mugshot
-arc-gtk-theme
+matcha-gtk-theme
 papirus-icon-theme
 thunar
 xdg-user-dirs
