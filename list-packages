@@ -1,6 +1,6 @@
 xorg-server
 lightdm
-lightdm-gtk-greeter
+lightdm-slick-greeter
 light-locker
 xfce4-whiskermenu-plugin
 xfce4-session
