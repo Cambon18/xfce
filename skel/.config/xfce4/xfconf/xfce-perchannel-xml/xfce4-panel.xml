@@ -57,10 +57,8 @@
     </property>
     <property name="plugin-4" type="string" value="notification-plugin"/>
     <property name="plugin-5" type="string" value="systray">
-      <property name="square-icons" type="bool" value="true"/>
-      <property name="known-legacy-items" type="array">
-        <value type="string" value="miniaplicación gestor de la red"/>
-      </property>
+      <property name="square-icons" type="bool" value="false"/>
+      <property name="icon-size" type="int" value="21"/>
     </property>
     <property name="plugin-6" type="string" value="power-manager-plugin"/>
     <property name="plugin-7" type="string" value="pulseaudio">
