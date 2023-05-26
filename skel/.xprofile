@@ -1,1 +1,2 @@
-thunar --daemon
+## Lanza el gestor de ficheros como daemon
+thunar --daemon &
