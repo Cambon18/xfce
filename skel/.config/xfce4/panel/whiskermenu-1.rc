@@ -1,8 +1,9 @@
 favorites=xfce4-web-browser.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-button-title=CambonOS\ 
+button-title=\ CambonOS\ 
 button-single-row=false
 show-button-title=true
-show-button-icon=false
+show-button-icon=true
+button-icon=/usr/share/plymouth/theme/cambonos/header-image.png
 launcher-show-name=true
 launcher-show-description=true
 launcher-show-tooltip=true
