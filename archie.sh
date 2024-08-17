@@ -14,4 +14,4 @@ sudo cp -rv skel /etc/
 sudo mv /usr/share/backgrounds/xfce/xfce-shapes.svg /usr/share/backgrounds/xfce/xfce--shapes.svg
 sudo cp imagenes/wallpaper.jpeg /usr/share/backgrounds/xfce/xfce-shapes.svg
 sudo cp imagenes/cambonos.png /usr/share/pixmaps/
-sudo cp iamgenes/background.jpg /usr/share/slick-greeter/
+sudo cp imagenes/background.jpg /usr/share/backgrounds/
