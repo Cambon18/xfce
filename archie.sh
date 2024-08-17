@@ -13,4 +13,6 @@ sudo systemctl enable lightdm.service
 sudo cp -rv skel /etc
 sudo cp -rv slick-greeter /usr/share
 sudo sed -i 's/GRUB_TIMEOUT=5/GRUB_TIMEOUT=0/g' /etc/default/grub
+sudo mv /usr/share/slick-greeter/Logo.png /usr/share/pixmaps/cambonos.png
+sudo mv /usr/share/backgrounds/xfce/xfce-shapes.svg /usr/share/backgrounds/xfce/xfce--shapes.svg
 sudo cp /usr/share/slick-greeter/background.jpg /usr/share/backgrounds/xfce/xfce-shapes.svg
