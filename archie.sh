@@ -8,11 +8,10 @@ do
 done
 sudo systemctl enable bluetooth.service
 sudo systemctl enable cups.service
-sudo cp -rv lightdm /etc
+sudo cp -rv lightdm /etc/
 sudo systemctl enable lightdm.service
-sudo cp -rv skel /etc
-sudo cp -rv slick-greeter /usr/share
-sudo sed -i 's/GRUB_TIMEOUT=5/GRUB_TIMEOUT=0/g' /etc/default/grub
-sudo mv /usr/share/slick-greeter/Logo.png /usr/share/pixmaps/cambonos.png
+sudo cp -rv skel /etc/
 sudo mv /usr/share/backgrounds/xfce/xfce-shapes.svg /usr/share/backgrounds/xfce/xfce--shapes.svg
-sudo cp /usr/share/slick-greeter/background.jpg /usr/share/backgrounds/xfce/xfce-shapes.svg
+sudo cp imagenes/wallpaper.jpeg /usr/share/backgrounds/xfce/xfce-shapes.svg
+sudo cp imagenes/Logo.png /usr/share/pixmaps/cambonos.png
+sudo cp iamgenes/background.jpg /usr/share/slick-greeter/
