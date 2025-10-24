@@ -1,3 +1,4 @@
 ## Lanza el gestor de ficheros como daemon
 xdg-user-dirs-update &
+gnome-keyring --start --components=secrets,ssh,gpg &
 thunar --daemon &
