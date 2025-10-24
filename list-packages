@@ -43,3 +43,6 @@ cups
 system-config-printer
 blueberry
 sof-firmware
+nss-mdns
+gnome-keyring
+libsecret
