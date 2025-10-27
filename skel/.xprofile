@@ -1,3 +1,2 @@
 ## Lanza el gestor de ficheros como daemon
-xdg-user-dirs-update &
 thunar --daemon &
