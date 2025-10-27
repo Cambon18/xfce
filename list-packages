@@ -25,6 +25,12 @@ thunar
 xdg-user-dirs
 gvfs
 gvfs-smb
+gvfs-afc
+gvfs-mtp
+gvfs-nfs
+gvfs-dnssd
+gvfs-google
+gvfs-onedrive
 thunar-volman
 tumbler
 thunar-archive-plugin
