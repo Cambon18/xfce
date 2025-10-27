@@ -28,11 +28,6 @@ gvfs-smb
 gvfs-afc
 gvfs-mtp
 gvfs-nfs
-gvfs-dnssd
-gvfs-google
-gvfs-onedrive
-gvfs-goa
-gvfs-wsdd
 thunar-volman
 tumbler
 thunar-archive-plugin
