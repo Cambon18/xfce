@@ -15,9 +15,12 @@ network-manager-applet
 bluez
 bluez-utils
 xfce4-pulseaudio-plugin
-pulseaudio
-pulseaudio-jack
-pulseaudio-bluetooth
+pipewire
+pipewire-pulse
+pipewire-alsa
+pipewire-jack
+pipewire-libcamera
+wireplumber
 pavucontrol
 mugshot
 matcha-gtk-theme
