@@ -32,6 +32,10 @@ gvfs-mtp
 gvfs-nfs
 thunar-volman
 tumbler
+ffmpegthumbnailer
+libopenraw
+libgsf
+libgepub
 thunar-archive-plugin
 file-roller
 gnome-disk-utility
