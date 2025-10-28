@@ -12,6 +12,8 @@ xfconf
 xfdesktop
 xfwm4
 network-manager-applet
+bluez
+bluez-utils
 xfce4-pulseaudio-plugin
 pulseaudio
 pulseaudio-jack
