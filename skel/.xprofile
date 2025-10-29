@@ -1,3 +1,2 @@
 ## Lanza el gestor de ficheros como daemon
-(sleep 1; killall light-locker; light-locker --lock-on-suspend --no-lock-on-lid --late-locking --idle-hint) &
 thunar --daemon &
