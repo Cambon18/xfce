@@ -2,12 +2,12 @@ xorg-server
 xorg-xinput
 lightdm
 lightdm-slick-greeter
-light-locker
 xfce4-whiskermenu-plugin
 xfce4-session
 xfce4-panel
 xfce4-power-manager
 xfce4-settings
+xfce4-screensaver
 xfce4-screenshooter
 xfce4-clipman-plugin
 xfconf
