@@ -70,5 +70,17 @@
     <property name="plugin-9" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="paste-on-activate" type="uint" value="1"/>
+        <property name="reorder-items" type="bool" value="true"/>
+        <property name="reverse-menu-order" type="bool" value="false"/>
+      </property>
+      <property name="settings" type="empty">
+        <property name="add-primary-clipboard" type="bool" value="false"/>
+        <property name="history-ignore-primary-clipboard" type="bool" value="false"/>
+        <property name="max-texts-in-history" type="uint" value="30"/>
+      </property>
+    </property>
   </property>
 </channel>
