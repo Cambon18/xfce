@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xfce4-panel" version="1.0">
   <property name="configver" type="int" value="2"/>
@@ -25,24 +25,50 @@
         <value type="int" value="8"/>
         <value type="int" value="9"/>
       </property>
-      <property name="disable-struts" type="bool" value="false"/>
+      <property name="enable-struts" type="bool" value="true"/>
+      <property name="enter-opacity" type="uint" value="90"/>
+      <property name="leave-opacity" type="uint" value="90"/>
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="string" value="whiskermenu"/>
+    <property name="plugin-1" type="string" value="whiskermenu">
+      <property name="button-title" type="string" value=" CambonOS "/>
+      <property name="button-icon" type="string" value="/usr/share/pixmaps/cambonos.png"/>
+      <property name="show-button-title" type="bool" value="true"/>
+      <property name="hover-switch-category" type="bool" value="true"/>
+      <property name="category-icon-size" type="int" value="2"/>
+      <property name="favorites-in-recent" type="bool" value="true"/>
+      <property name="position-search-alternate" type="bool" value="true"/>
+      <property name="position-categories-alternate" type="bool" value="true"/>
+      <property name="menu-width" type="int" value="580"/>
+      <property name="menu-height" type="int" value="620"/>
+      <property name="command-lockscreen" type="string" value="xfce4-screensaver-command -l"/>
+      <property name="command-switchuser" type="string" value="gdmflexiserver"/>
+      <property name="favorites" type="array">
+        <value type="string" value="xfce4-web-browser.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+      </property>
+      <property name="recent" type="array">
+        <value type="string" value="xfce-wmtweaks-settings.desktop"/>
+        <value type="string" value="xfce4-screensaver-preferences.desktop"/>
+        <value type="string" value="thunar-volman-settings.desktop"/>
+      </property>
+      <property name="menu-opacity" type="int" value="90"/>
+    </property>
     <property name="plugin-10" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="17618130321.desktop"/>
       </property>
     </property>
     <property name="plugin-11" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="17618130322.desktop"/>
       </property>
     </property>
     <property name="plugin-12" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="xfce4-web-browser.desktop"/>
+        <value type="string" value="17618130323.desktop"/>
       </property>
     </property>
     <property name="plugin-2" type="string" value="tasklist">
@@ -59,6 +85,11 @@
     <property name="plugin-5" type="string" value="systray">
       <property name="square-icons" type="bool" value="false"/>
       <property name="icon-size" type="int" value="21"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="miniaplicación gestor de la red"/>
+        <value type="string" value="clipman"/>
+      </property>
     </property>
     <property name="plugin-6" type="string" value="power-manager-plugin"/>
     <property name="plugin-7" type="string" value="pulseaudio">
@@ -66,6 +97,8 @@
     </property>
     <property name="plugin-8" type="string" value="clock">
       <property name="digital-format" type="string" value="%_H:%M"/>
+      <property name="digital-time-format" type="string" value="%_H:%M"/>
+      <property name="digital-layout" type="uint" value="3"/>
     </property>
     <property name="plugin-9" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
