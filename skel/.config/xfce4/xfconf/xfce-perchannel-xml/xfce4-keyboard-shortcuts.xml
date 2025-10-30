@@ -4,7 +4,7 @@
   <property name="commands" type="empty">
     <property name="default" type="empty">
       <property name="Super_L" type="string" value="xfce4-popup-whiskermenu"/>
-      <property name="&lt;Super&gt;l" type="string" value="light-locker-command -l"/>
+      <property name="&lt;Super&gt;l" type="string" value="xfce4-screensaver-command -l"/>
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
       <property name="&lt;Alt&gt;F2" type="string" value="xfce4-appfinder --collapsed">
         <property name="startup-notify" type="bool" value="true"/>
