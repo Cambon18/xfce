@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
+  <property name="background-darkness" type="double" value="0.90000000000000002"/>
+  <property name="color-background" type="string" value="#1c1c1e1e2626"/>
+  <property name="color-foreground" type="string" value="#e0e0e0e0e0e0"/>
+  <property name="color-background-vary" type="bool" value="false"/>
+  <property name="color-cursor-foreground" type="string" value=""/>
+  <property name="color-cursor" type="string" value=""/>
+  <property name="color-cursor-use-default" type="bool" value="true"/>
+  <property name="color-selection" type="string" value=""/>
+  <property name="color-selection-background" type="string" value=""/>
+  <property name="color-selection-use-default" type="bool" value="true"/>
+  <property name="color-bold" type="string" value=""/>
+  <property name="color-bold-use-default" type="bool" value="true"/>
+  <property name="color-palette" type="string" value="rgb(22,22,28);rgb(233,86,120);rgb(41,211,152);rgb(250,183,149);rgb(38,187,217);rgb(238,100,172);rgb(89,225,227);rgb(213,216,218);rgb(91,88,88);rgb(236,106,136);rgb(63,218,164);rgb(251,195,167);rgb(63,196,222);rgb(240,117,181);rgb(107,228,230);rgb(213,216,218)"/>
+  <property name="color-bold-is-bright" type="bool" value="true"/>
+  <property name="color-use-theme" type="bool" value="false"/>
+  <property name="tab-activity-color" type="string" value="#aa0000"/>
+</channel>
