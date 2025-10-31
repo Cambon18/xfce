@@ -76,14 +76,6 @@
     </Menu>
 
     <Menu>
-        <Name>Education</Name>
-        <Directory>xfce-education.directory</Directory>
-        <Include>
-            <Category>Education</Category>
-        </Include>
-    </Menu>
-
-    <Menu>
         <Name>Games</Name>
         <Directory>xfce-games.directory</Directory>
         <Include>
