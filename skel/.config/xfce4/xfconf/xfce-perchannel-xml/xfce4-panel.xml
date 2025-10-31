@@ -49,11 +49,6 @@
         <value type="string" value="xfce4-file-manager.desktop"/>
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
       </property>
-      <property name="recent" type="array">
-        <value type="string" value="xfce-wmtweaks-settings.desktop"/>
-        <value type="string" value="xfce4-screensaver-preferences.desktop"/>
-        <value type="string" value="thunar-volman-settings.desktop"/>
-      </property>
       <property name="menu-opacity" type="int" value="90"/>
     </property>
     <property name="plugin-10" type="string" value="launcher">
@@ -85,11 +80,6 @@
     <property name="plugin-5" type="string" value="systray">
       <property name="square-icons" type="bool" value="false"/>
       <property name="icon-size" type="int" value="21"/>
-      <property name="known-legacy-items" type="array">
-        <value type="string" value="blueberry-tray.py"/>
-        <value type="string" value="miniaplicación gestor de la red"/>
-        <value type="string" value="clipman"/>
-      </property>
     </property>
     <property name="plugin-6" type="string" value="power-manager-plugin"/>
     <property name="plugin-7" type="string" value="pulseaudio">
