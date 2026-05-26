@@ -16,4 +16,4 @@ sudo cp -rv skel /etc/
 sudo mv /usr/share/backgrounds/xfce/xfce-x.svg /usr/share/backgrounds/xfce/xfce--x.svg
 sudo cp imagenes/wallpaper.jpeg /usr/share/backgrounds/xfce/xfce-x.svg
 sudo cp imagenes/cambonos.png /usr/share/pixmaps/
-sudo cp imagenes/background.jpg /usr/share/backgrounds/
+sudo cp imagenes/background*.jpg /usr/share/backgrounds/
