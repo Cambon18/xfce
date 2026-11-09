@@ -1,7 +1,7 @@
 xorg-server
 xorg-xinput
-lightdm
-lightdm-slick-greeter
+cambonos-lightdm
+cambonos-gtk-theme
 xfce4-whiskermenu-plugin
 xfce4-session
 xfce4-panel
@@ -26,7 +26,6 @@ pipewire-libcamera
 wireplumber
 pavucontrol
 mugshot
-matcha-gtk-theme
 papirus-icon-theme
 xapp
 thunar
@@ -62,6 +61,5 @@ sof-firmware
 nss-mdns
 gnome-keyring
 libsecret
-numlockx
 nvtop
 menulibre

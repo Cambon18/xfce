@@ -33,8 +33,8 @@
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="whiskermenu">
-      <property name="button-title" type="string" value=" CambonOS "/>
-      <property name="button-icon" type="string" value="/usr/share/pixmaps/cambonos.png"/>
+      <property name="button-title" type="string" value=""/>
+      <property name="button-icon" type="string" value="/usr/share/cambonos/branging/cambonos-text.png"/>
       <property name="show-button-title" type="bool" value="true"/>
       <property name="hover-switch-category" type="bool" value="true"/>
       <property name="category-icon-size" type="int" value="2"/>
