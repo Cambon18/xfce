@@ -27,8 +27,8 @@
         <value type="int" value="13"/>
       </property>
       <property name="enable-struts" type="bool" value="true"/>
-      <property name="enter-opacity" type="uint" value="90"/>
-      <property name="leave-opacity" type="uint" value="90"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
     </property>
   </property>
   <property name="plugins" type="empty">
