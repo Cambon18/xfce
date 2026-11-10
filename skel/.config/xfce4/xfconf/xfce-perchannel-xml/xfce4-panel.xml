@@ -35,14 +35,14 @@
     <property name="plugin-1" type="string" value="whiskermenu">
       <property name="button-title" type="string" value=""/>
       <property name="button-icon" type="string" value="/usr/share/cambonos/branging/cambonos-text.png"/>
-      <property name="show-button-title" type="bool" value="true"/>
+      <property name="show-button-title" type="bool" value="false"/>
       <property name="hover-switch-category" type="bool" value="true"/>
-      <property name="category-icon-size" type="int" value="2"/>
+      <property name="category-icon-size" type="int" value="0"/>
       <property name="favorites-in-recent" type="bool" value="true"/>
       <property name="position-search-alternate" type="bool" value="true"/>
       <property name="position-categories-alternate" type="bool" value="true"/>
-      <property name="menu-width" type="int" value="580"/>
-      <property name="menu-height" type="int" value="620"/>
+      <property name="menu-width" type="int" value="560"/>
+      <property name="menu-height" type="int" value="520"/>
       <property name="command-lockscreen" type="string" value="xfce4-screensaver-command -l"/>
       <property name="command-switchuser" type="string" value="gdmflexiserver"/>
       <property name="favorites" type="array">
@@ -50,7 +50,20 @@
         <value type="string" value="xfce4-file-manager.desktop"/>
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
       </property>
-      <property name="menu-opacity" type="int" value="90"/>
+      <property name="menu-opacity" type="int" value="88"/>
+      <property name="profile-shape" type="int" value="0"/>
+      <property name="position-commands-alternate" type="bool" value="false"/>
+      <property name="position-profile-alternate" type="bool" value="false"/>
+      <property name="position-categories-horizontal" type="bool" value="false"/>
+      <property name="default-category" type="int" value="1"/>
+      <property name="stay-on-focus-out" type="bool" value="false"/>
+      <property name="button-single-row" type="bool" value="false"/>
+      <property name="view-mode" type="int" value="1"/>
+      <property name="launcher-show-name" type="bool" value="true"/>
+      <property name="category-show-name" type="bool" value="true"/>
+      <property name="launcher-show-tooltip" type="bool" value="true"/>
+      <property name="launcher-show-description" type="bool" value="false"/>
+      <property name="launcher-icon-size" type="int" value="2"/>
     </property>
     <property name="plugin-10" type="string" value="launcher">
       <property name="items" type="array">
